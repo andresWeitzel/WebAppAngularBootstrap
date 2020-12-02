@@ -1,6 +1,3 @@
-# Proyecto01
-Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-cli) versión 9.1.0.
-
 
 # Proyecto Web con Angular y Bootstrap
 
@@ -12,6 +9,8 @@ Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-c
 | Git | 2.29.1.windows.1  |
 | Angular CLI | 9.1.0 |
 
+</br>
+
 ## Repositorios Oficiales(documentación)
 
 #### Bootstrap:   https://getbootstrap.com/
@@ -20,6 +19,7 @@ Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-c
 #### Git:         https://git-scm.com/docs
 #### Angular CLI: https://github.com/angular/angular-cli
 
+</br>
 
 ## Más Información
 

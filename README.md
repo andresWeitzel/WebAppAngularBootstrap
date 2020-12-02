@@ -1,27 +1,48 @@
 # Proyecto01
+Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-cli) versión 9.1.0.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
-## Development server
+# Proyecto Web con Angular y Bootstrap
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+| Tecnologías | Versión |
+| ------------- | ------------- |
+| Angular |   9.1.12 |
+| Bootstrap | Latest(4.5.x)  |
+| Visual Studio Code | 1.51.1  |
+| Git | 2.29.1.windows.1  |
+| Angular CLI | 9.1.0 |
 
-## Code scaffolding
+## Repositorios Oficiales(documentación)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Bootstrap:   https://getbootstrap.com/
+#### Angular:     https://angular.io/tutorial/toh-pt0
+#### IDE:         https://code.visualstudio.com/download
+#### Git:         https://git-scm.com/docs
+#### Angular CLI: https://github.com/angular/angular-cli
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Más Información
 
-## Running unit tests
+### Servidor de desarrollo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ejecute `ng serve` para un servidor de desarrollo. Navegue a `http: // localhost: 4200 /`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
-## Running end-to-end tests
+### Andamio de código
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Ejecute `ng generate component component-name` para generar un nuevo componente. También puede usar `ng generate directive | pipe | service | class | guard | interface | enum | module`.
 
-## Further help
+### Construir
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Ejecute `ng build` para construir el proyecto. Los artefactos de construcción se almacenarán en el directorio `dist /`. Usa la marca `--prod` para una construcción de producción.
+
+### Ejecución de pruebas unitarias
+
+Ejecute `ng test` para ejecutar las pruebas unitarias a través de [Karma] (https://karma-runner.github.io).
+
+### Ejecución de pruebas de un extremo a otro
+
+Ejecute `ng e2e` para ejecutar las pruebas de un extremo a otro a través de [Transportador] (http://www.protractortest.org/).
+
+### Ayuda adicional
+
+Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME de Angular CLI] (https://github.com/angular/angular-cli/blob/master/README.md).

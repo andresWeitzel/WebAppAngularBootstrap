@@ -4,10 +4,12 @@
 | Tecnologías | Versión |
 | ------------- | ------------- |
 | Angular |   9.1.12 |
-| Bootstrap | Latest(4.5.x)  |
+| Bootstrap | 4.5.x  |
+| Netlify | - |
 | Visual Studio Code | 1.51.1  |
 | Git | 2.29.1.windows.1  |
 | Angular CLI | 9.1.0 |
+| Netlify CLI | 2.69.10 |
 
 </br>
 
@@ -18,6 +20,7 @@
 #### IDE:         https://code.visualstudio.com/download
 #### Git:         https://git-scm.com/docs
 #### Angular CLI: https://github.com/angular/angular-cli
+#### Netlify CLI: https://www.npmjs.com/package/netlify-cli
 
 </br>
 

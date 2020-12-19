@@ -69,4 +69,5 @@ Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME d
 
 ### 3) Deploy
 * netlify deploy --prod
+#### Importante: Luego de ingresar este comando, asegurarse de colocar correctamente el **Publish directory** , sino no se va a deployar correctamente, en general es dist/'nombre de tu proyecto' 
 

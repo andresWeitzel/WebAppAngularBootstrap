@@ -1,6 +1,8 @@
 
 # Proyecto Web con Angular y Bootstrap
 
+**Diseño y Desarrollo de una aplicación web sobre violencia de género, discriminación, etc. Aplicando Angular y Bootstrap**
+
 | Tecnologías | Versión |
 | ------------- | ------------- |
 | Angular |   9.1.12 |

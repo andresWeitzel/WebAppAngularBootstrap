@@ -1,13 +1,13 @@
 # WebAppAngularBootstrap
 
-** Diseño y Desarrollo de una aplicación web sobre violencia de género, discriminación, etc. Aplicando Angular y Bootstrap **
+**Diseño y Desarrollo de una aplicación web sobre violencia de género, discriminación, etc. Aplicando Angular y Bootstrap**
 
 </br>
 
 | Tecnologías | Versión |
 | ------------- | ------------- |
 | Angular |   9.1.12 |
-| Bootstrap | Latest(4.5.x)  |
+| Bootstrap | 4.5.x  |
 | Visual Studio Code | 1.51.1  |
 | Git | 2.29.1.windows.1  |
 | Angular CLI | 9.1.0 |

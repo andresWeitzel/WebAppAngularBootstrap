@@ -60,6 +60,7 @@ Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME d
 
 ### 1) Instalar el cli global
  * npm i netlify-cli
+ * netlify login
  * netlify status
  * netlify --version
 

@@ -57,12 +57,13 @@ Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME d
 ## Deploy de la app desde el bash de vs code
 
 ### 1) Instalar el cli global
- npm i netlify-cli
- netlify status
- netlify --version
+ * npm i netlify-cli
+ * netlify status
+ * netlify --version
 
 ### 2) Build 
- ng build --prod 
+ * ng build --prod 
 
-### 3) netlify deploy --prod
+### 3) Deploy
+* netlify deploy --prod
 

@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 import { CardComponent } from './card/card.component';
 import { MapComponent } from './map/map.component';
+import { FormularioDenunciasComponent } from './formulario-denuncias/formulario-denuncias.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MapComponent } from './map/map.component';
     FooterComponent,
     CarrouselComponent,
     CardComponent,
-    MapComponent
+    MapComponent,
+    FormularioDenunciasComponent
   ],
   imports: [
     BrowserModule,

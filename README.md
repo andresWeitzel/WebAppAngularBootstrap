@@ -1,13 +1,23 @@
 
 # Proyecto Web con Angular y Bootstrap
 
+**Diseño y Desarrollo de una aplicación web para denuncias, ayuda e información sobre violencia de género, discriminación, etc. Aplicando Angular y Bootstrap**
+
+</br>
+
+Aplicación Web: https://web-app-denuncias.netlify.app/
+
+</br>
+
 | Tecnologías | Versión |
 | ------------- | ------------- |
 | Angular |   9.1.12 |
-| Bootstrap | Latest(4.5.x)  |
+| Bootstrap | 4.5.x  |
+| Netlify | - |
 | Visual Studio Code | 1.51.1  |
 | Git | 2.29.1.windows.1  |
 | Angular CLI | 9.1.0 |
+| Netlify CLI | 2.69.10 |
 
 </br>
 
@@ -18,6 +28,7 @@
 #### IDE:         https://code.visualstudio.com/download
 #### Git:         https://git-scm.com/docs
 #### Angular CLI: https://github.com/angular/angular-cli
+#### Netlify CLI: https://www.npmjs.com/package/netlify-cli
 
 </br>
 
@@ -46,3 +57,23 @@ Ejecute `ng e2e` para ejecutar las pruebas de un extremo a otro a través de [Tr
 ### Ayuda adicional
 
 Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME de Angular CLI] (https://github.com/angular/angular-cli/blob/master/README.md).
+
+<hr>
+
+</br>
+
+## Deploy de la app desde el bash de vs code
+
+### 1) Instalar el cli global
+ * npm i netlify-cli
+ * netlify login
+ * netlify status
+ * netlify --version
+
+### 2) Build 
+ * ng build --prod 
+
+### 3) Deploy
+* netlify deploy --prod
+#### IMPORTANTE: Luego de ingresar este comando, asegurarse de colocar correctamente el `Publish directory` , sino no se va a deployar correctamente, en general es dist/'nombre de tu proyecto' 
+

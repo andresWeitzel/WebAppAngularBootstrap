@@ -64,15 +64,15 @@ Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME d
 
 ## Actualización del proyecto con git desde el bash de vs code
 
-### 1)Visualizamos las modificaciones realizadas en local
+#### 1)Visualizamos las modificaciones realizadas en local
 * git status
-### 2)Agregamos lo modificado al area de trabajo
+#### 2)Agregamos lo modificado al area de trabajo
 * git add *
-### 3)Confirmamos las modificaciones realizadas
+#### 3)Confirmamos las modificaciones realizadas
 * git commit
-### 4)Sincronizamos y traemos todos los cambios del repositorio remoto a la rama en la que estemos trabajando actualmente(desconozco porqué tengo que ejecutar este comando, supongo que será porque en el local tengo otros proyectos o porque mi master no es un brach, sino el main por defecto de gitHub(Yo realicé esa modificación para mejor visualización)).
+#### 4)Sincronizamos y traemos todos los cambios del repositorio remoto a la rama en la que estemos trabajando actualmente(desconozco porqué tengo que ejecutar este comando, supongo que será porque en el local tengo otros proyectos o porque mi master no es un branch, sino el main por defecto de gitHub(Yo realicé esa modificación para mejor visualización)).
 * git pull https://github.com/andresWeitzel/WebAppAngularBootstrap.git
-### 5)Enviamos todos los cambios al repo en github
+#### 5)Enviamos todos los cambios al repo en github
 * git push https://github.com/andresWeitzel/WebAppAngularBootstrap.git
 
 

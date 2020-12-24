@@ -62,6 +62,26 @@ Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME d
 
 </br>
 
+## Actualización del proyecto con git desde el bash de vs code
+
+### 1)Visualizamos las modificaciones realizadas en local
+* git status
+
+### 2)Agregamos lo modificado al area de trabajo
+* git add *
+
+### 3)Confirmamos las modificaciones realizadas
+* git commit
+
+### 4)Sincronizamos y traemos todos los cambios del repositorio remoto a la rama en la que estemos trabajando actualmente.
+##### (Desconozco porqué tengo que ejecutar este comando, supongo que será porque en el local tengo otros proyectos o porque mi master no es un branch, sino el main por defecto de gitHub(Yo realicé esa modificación para mejor visualización)).
+* git pull https://github.com/andresWeitzel/WebAppAngularBootstrap.git
+
+### 5)Enviamos todos los cambios al repo en github
+* git push https://github.com/andresWeitzel/WebAppAngularBootstrap.git
+
+</br>
+
 ## Deploy de la app desde el bash de vs code
 
 ### 1) Instalar el cli global
@@ -75,5 +95,5 @@ Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME d
 
 ### 3) Deploy
 * netlify deploy --prod
-#### IMPORTANTE: Luego de ingresar este comando, asegurarse de colocar correctamente el `Publish directory` , sino no se va a deployar correctamente, en general es dist/'nombre de tu proyecto' 
+#### IMPORTANTE: Luego de ingresar este comando, asegurarse de colocar correctamente el `Publish directory` , sino no se va a deployar correctamente, en general es  `dist/'nombre de tu proyecto sin comillas' ` 
 

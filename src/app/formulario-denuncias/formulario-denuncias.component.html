@@ -1,1 +1,66 @@
-<p>formulario-denuncias works!</p>
+<section class="container text-center">
+
+    <form>
+        <div>
+            <h3>Formulario de Denuncia</h3>
+        </div>
+        <hr>
+
+        <div class="text-left p-2 m-2">
+
+            <div class="form-group">
+                <label for="nombre"> <h5>Nombre:</h5></label>
+                <input class="form-control" type="text" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group">
+                <label for="apellido"> <h5>Apellido:</h5></label>
+                <input class="form-control" type="text" id="apellido" placeholder="Ingrese su apellido">
+            </div>
+            <div class="form-group">
+                <label for="edad"><h5>Edad:</h5></label>
+                <input class="form-control" type="number" id="edad" placeholder="Ingrese su edad">
+            </div>
+            <div class="form-group">
+                <label for="email"><h5>Correo Electrónico</h5></label>
+                <input type="email" class="form-control" id="email" placeholder="ingrese algun correo electronico, ej: ejemplo@gmail.com">
+            </div>
+
+            <div class="form-group">
+                <label for="tipo_denuncia"><h5>Tipo de Denuncia</h5></label>
+                <select class="form-control" id="denuncia">
+                    <option>Elija una opción</option>
+                    <option>Violencia de Género</option>
+                    <option>Violencia Familiar y Sexual</option>
+                    <option>Trata de Personas</option>
+                    <option>Otros</option>
+                 </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comentarios"><h5>Agregar Comentarios</h5></label>
+                <textarea class="form-control" id="comentarios" rows="3"></textarea>
+            </div>
+
+            <hr>
+            <div class="form-group">
+                <label for="archivo_usuario"><h5>Archivo para Comprobar</h5> </label>
+                <input type="file" class="form-control-file" id="archivo_usuario">
+            </div>
+            <hr>
+            <br>
+
+
+            <div class="m-2 p-2">
+                <button type="reset" class="btn btn-danger mb-2">Borrar Todo</button>
+                <button type="submit" class="btn btn-success ml-3 mb-2">Enviar datos</button>
+            </div>
+
+        </div>
+
+
+
+
+
+    </form>
+
+</section>

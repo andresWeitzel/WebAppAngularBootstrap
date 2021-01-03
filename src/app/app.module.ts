@@ -9,6 +9,9 @@ import { CarrouselComponent } from './carrousel/carrousel.component';
 import { CardComponent } from './card/card.component';
 import { MapComponent } from './map/map.component';
 import { FormularioDenunciasComponent } from './formulario-denuncias/formulario-denuncias.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { NovedadesComponent } from './novedades/novedades.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { FormularioDenunciasComponent } from './formulario-denuncias/formulario-
     CarrouselComponent,
     CardComponent,
     MapComponent,
-    FormularioDenunciasComponent
+    FormularioDenunciasComponent,
+    PageNotFoundComponent,
+    InicioComponent,
+    NovedadesComponent
   ],
   imports: [
     BrowserModule,

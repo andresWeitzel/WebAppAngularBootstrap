@@ -18,6 +18,7 @@ Aplicación Web: https://web-app-denuncias.netlify.app/
 | Git | 2.29.1.windows.1  |
 | Angular CLI | 9.1.0 |
 | Netlify CLI | 2.69.10 |
+| FullCalendar API | 5.5.0  |
 
 </br>
 
@@ -29,40 +30,121 @@ Aplicación Web: https://web-app-denuncias.netlify.app/
 #### Git:         https://git-scm.com/docs
 #### Angular CLI: https://github.com/angular/angular-cli
 #### Netlify CLI: https://www.npmjs.com/package/netlify-cli
+#### FullCalendar API: https://fullcalendar.io/docs/getting-started
 
 </br>
 
 ## Más Información
 
-### Servidor de desarrollo
-
-Ejecute `ng serve` para un servidor de desarrollo. Navegue a `http: // localhost: 4200 /`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
-
-### Andamio de código
-
-Ejecute `ng generate component component-name` para generar un nuevo componente. También puede usar `ng generate directive | pipe | service | class | guard | interface | enum | module`.
-
-### Construir
-
-Ejecute `ng build` para construir el proyecto. Los artefactos de construcción se almacenarán en el directorio `dist /`. Usa la marca `--prod` para una construcción de producción.
-
-### Ejecución de pruebas unitarias
-
-Ejecute `ng test` para ejecutar las pruebas unitarias a través de [Karma] (https://karma-runner.github.io).
-
-### Ejecución de pruebas de un extremo a otro
-
-Ejecute `ng e2e` para ejecutar las pruebas de un extremo a otro a través de [Transportador] (http://www.protractortest.org/).
-
-### Ayuda adicional
-
-Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME de Angular CLI] (https://github.com/angular/angular-cli/blob/master/README.md).
-
 <hr>
+
+## Uso de la Api de FullCalendar
+
+#### Contenedor en html para el calendario
+* {div id='calendar'} {/div} ```( REEMPLAZAR LOS { } POR < > , ya que github no permite algunos tags en sus readmes. También asegurate de darle margen para la correcta visualización del encabezado del calendario)```
+
+### Usando los CDN de FullCalendar ( Incorporar en la pagina deseada lo siguiente )
+
+#### Maquetado
+* {link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/fullcalendar@5.5.0/main.min.css'} ```( REEMPLAZAR LOS { } POR < > , ya que github no permite algunos tags en sus readmes )```
+
+#### Funcionalidad
+*  <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/fullcalendar@5.5.0/main.min.js'></script>
+*  <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/fullcalendar@5.5.0/locales-all.min.js'></script>
+*  <script type="text/javascript" src="../js/utilidades/calendario.js"></script> ( Nuestro Script JQuery para el consumo de la api )
+
+
+#### Script base en JQuery para la implementacion de la Api de FullCalendar ( calendario.js )
+```
+document.addEventListener('DOMContentLoaded', function() {
+
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        initialDate: '2020-12-07',
+        headerToolbar: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'dayGridMonth,timeGridWeek,timeGridDay'
+        },
+
+        events: [{
+                title: 'All Day Event',
+                start: '2020-12-01'
+            },
+            {
+                title: 'Long Event',
+                start: '2020-12-07',
+                end: '2020-12-10'
+            },
+            {
+                groupId: '999',
+                title: 'Repeating Event',
+                start: '2020-12-09T16:00:00'
+            },
+            {
+                groupId: '999',
+                title: 'Repeating Event',
+                start: '2020-12-16T16:00:00'
+            },
+            {
+                title: 'Conference',
+                start: '2020-12-11',
+                end: '2020-12-13'
+            },
+            {
+                title: 'Meeting',
+                start: '2020-12-12T10:30:00',
+                end: '2020-12-12T12:30:00'
+            },
+            {
+                title: 'Lunch',
+                start: '2020-12-12T12:00:00'
+            },
+            {
+                title: 'Meeting',
+                start: '2020-12-12T14:30:00'
+            },
+            {
+                title: 'Birthday Party',
+                start: '2020-12-13T07:00:00'
+            },
+            {
+                title: 'Click for Google',
+                url: 'http://google.com/',
+                start: '2020-12-28'
+            }
+        ]
+    });
+
+    calendar.render();
+});
+
+```
 
 </br>
 
-## Actualización del proyecto con git desde el bash de vs code
+## Subir el proyecto al repositorio con git desde el bash de visual studio Code 
+
+### 1)Inicializamos nuestro repositorio local .git
+* git init
+
+### 2)Agregamos lo desarrollado a nuestro repo local
+* git add .
+
+### 3)Agregamos lo que tenemos en nuestro repo local al área de Trabajo.
+* git commit -m "agrega un comentario sin comillas"
+
+### 4)Le indicamos a git donde se va a almacenar nuestro proyecto(fijate en tu repositorio de github cual es el enlace de tu proyecto(esta en code)).
+* git remote add origin gh repo clone andresWeitzel/WebAppAngularBootstrap
+
+### 5)Subimos nuestro proyecto.
+* git push -u origin master
+
+</br>
+
+## Actualización del repositorio del proyecto con git desde el bash de visual studio code
 
 ### 1)Visualizamos las modificaciones realizadas en local
 * git status
@@ -82,7 +164,7 @@ Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME d
 
 </br>
 
-## Deploy de la app desde el bash de vs code
+## Deploy de la app desde el bash de visual studio code
 
 ### 1) Instalar el cli global
  * npm i netlify-cli

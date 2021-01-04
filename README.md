@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </br>
 
-## Actualización del proyecto con git desde el bash de visual studio code
+## Actualización del repositorio del proyecto con git desde el bash de visual studio code
 
 ### 1)Visualizamos las modificaciones realizadas en local
 * git status

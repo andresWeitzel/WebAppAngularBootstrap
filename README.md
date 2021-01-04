@@ -38,8 +38,6 @@ Aplicación Web: https://web-app-denuncias.netlify.app/
 
 <hr>
 
-</br>
-
 ## Uso de la Api de FullCalendar
 
 #### Contenedor en html para el calendario
@@ -124,6 +122,25 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 ```
+
+</br>
+
+## Subir el proyecto al repositorio con git desde el bash de visual studio Code 
+
+### 1)Inicializamos nuestro repositorio local .git
+* git init
+
+### 2)Agregamos lo desarrollado a nuestro repo local
+* git add .
+
+### 3)Agregamos lo que tenemos en nuestro repo local al área de Trabajo.
+* git commit -m "agrega un comentario sin comillas"
+
+### 4)Le indicamos a git donde se va a almacenar nuestro proyecto(fijate en tu repositorio de github cual es el enlace de tu proyecto(esta en code)).
+* git remote add origin gh repo clone andresWeitzel/WebAppAngularBootstrap
+
+### 5)Subimos nuestro proyecto.
+* git push -u origin master
 
 </br>
 

@@ -12,6 +12,7 @@ import { FormularioDenunciasComponent } from './formulario-denuncias/formulario-
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NovedadesComponent } from './novedades/novedades.component';
+import { CalendarioComponent } from './calendario/calendario.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NovedadesComponent } from './novedades/novedades.component';
     FormularioDenunciasComponent,
     PageNotFoundComponent,
     InicioComponent,
-    NovedadesComponent
+    NovedadesComponent,
+    CalendarioComponent
   ],
   imports: [
     BrowserModule,

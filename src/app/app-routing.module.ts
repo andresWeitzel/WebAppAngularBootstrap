@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { CalendarioComponent } from './calendario/calendario.component';
 import { FormularioDenunciasComponent } from './formulario-denuncias/formulario-denuncias.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NovedadesComponent } from './novedades/novedades.component';
@@ -10,6 +11,7 @@ const routes: Routes = [
   {path: 'inicio' , component:InicioComponent},
   {path: 'formulario-denuncias' , component:FormularioDenunciasComponent},
   {path: 'novedades' , component:NovedadesComponent},
+  {path: 'calendario' , component:CalendarioComponent},
   {path: '', component:InicioComponent, pathMatch: 'full'},
   {path: '**' , component:PageNotFoundComponent}
 ];

@@ -80,7 +80,7 @@ Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte el [LÉAME d
 *  <script type="text/javascript" src="../js/utilidades/calendario.js"></script> ( Nuestro Script JQuery para el consumo de la api )
 
 
-#### Script en JQuery para la implementacion de la Api de FullCalendar ( calendario.js )
+#### Script base en JQuery para la implementacion de la Api de FullCalendar ( calendario.js )
 ```
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </br>
 
-## Actualización del proyecto con git desde el bash de vs code
+## Actualización del proyecto con git desde el bash de visual studio code
 
 ### 1)Visualizamos las modificaciones realizadas en local
 * git status
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </br>
 
-## Deploy de la app desde el bash de vs code
+## Deploy de la app desde el bash de visual studio code
 
 ### 1) Instalar el cli global
  * npm i netlify-cli

@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
 * git add .
 
 ### 3)Agregamos lo que tenemos en nuestro repo local al área de Trabajo.
-* git commit -m "agrega un comentario sin comillas"
+* git commit -m "agrega un comentario entre comillas"
 
 ### 4)Le indicamos a git donde se va a almacenar nuestro proyecto(fijate en tu repositorio de github cual es el enlace de tu proyecto(esta en code)).
 * git remote add origin gh repo clone andresWeitzel/WebAppAngularBootstrap
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
 * git add *
 
 ### 3)Confirmamos las modificaciones realizadas
-* git commit
+* git commit -m "Tu commit entre comillas"
 
 ### 4)Sincronizamos y traemos todos los cambios del repositorio remoto a la rama en la que estemos trabajando actualmente.
 ##### (Desconozco porqué tengo que ejecutar este comando, supongo que será porque en el local tengo otros proyectos o porque mi master no es un branch, sino el main por defecto de gitHub(Yo realicé esa modificación para mejor visualización)).

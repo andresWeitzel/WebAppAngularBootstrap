@@ -68,7 +68,7 @@
 * git init
 
 ### 2)Agregamos lo desarrollado a nuestro repo local
-* git add .
+* git add *
 
 ### 3)Agregamos lo que tenemos en nuestro repo local al área de Trabajo.
 * git commit -m "agrega un comentario entre comillas"

@@ -5,7 +5,7 @@
 
 </br>
 
-Aplicación Web: https://web-app-denuncias.netlify.app/
+## Aplicación Web: https://web-app-denuncias.netlify.app/
 
 </br>
 
@@ -20,7 +20,7 @@ Aplicación Web: https://web-app-denuncias.netlify.app/
 ![Index app](https://github.com/andresWeitzel/Graphics/blob/main/Proyectos/DenunciasOnlineAngular_app/Captura%20de%20pantalla%20(322).png)
 
 
-## Vista de Inicio de la App Webb 3/4
+## Vista de Inicio de la App Web 3/4
 
 ![Index app](https://github.com/andresWeitzel/Graphics/blob/main/Proyectos/DenunciasOnlineAngular_app/Captura%20de%20pantalla%20(321).png)
 
@@ -31,9 +31,8 @@ Aplicación Web: https://web-app-denuncias.netlify.app/
 </br>
 
 <hr>
-</br>
 
-<hr>
+</br>
 
 | Tecnologías | Versión |
 | ------------- | ------------- |

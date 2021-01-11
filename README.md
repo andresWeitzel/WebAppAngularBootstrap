@@ -11,18 +11,22 @@ Aplicación Web: https://web-app-denuncias.netlify.app/
 
 </br>
 
-## Vista Inicio del Sitio Web 1/3
+## Vista Inicio del Sitio Web 1/4
 
 ![Index app](https://github.com/andresWeitzel/Graphics/blob/main/Proyectos/DenunciasOnlineAngular_app/Captura%20de%20pantalla%20(320).png)
 
-## Vista Inicio del Sitio Web 2/3
+## Vista Inicio del Sitio Web 2/4
 
 ![Index app](https://github.com/andresWeitzel/Graphics/blob/main/Proyectos/DenunciasOnlineAngular_app/Captura%20de%20pantalla%20(322).png)
 
 
-## Vista Inicio del Sitio Web 3/3
+## Vista Inicio del Sitio Web 3/4
 
 ![Index app](https://github.com/andresWeitzel/Graphics/blob/main/Proyectos/DenunciasOnlineAngular_app/Captura%20de%20pantalla%20(321).png)
+
+## Vista Inicio del Sitio Web 4/4
+
+![Index app](https://github.com/andresWeitzel/Graphics/blob/main/Proyectos/DenunciasOnlineAngular_app/Captura%20de%20pantalla%20(323).png)
 
 </br>
 

@@ -64,19 +64,21 @@
 
 ## Subir el proyecto al repositorio con git desde el bash de visual studio Code 
 
-### 1)Inicializamos nuestro repositorio local .git
+#### 1)Creamos un nuevo repositorio en GitHub
+
+#### 2)Inicializamos nuestro repositorio local .git
 * git init
 
-### 2)Agregamos lo desarrollado a nuestro repo local
+#### 3)Agregamos lo desarrollado a nuestro repo local
 * git add *
 
-### 3)Agregamos lo que tenemos en nuestro repo local al área de Trabajo.
+#### 4)Agregamos lo que tenemos en nuestro repo local al área de Trabajo.
 * git commit -m "agrega un comentario entre comillas"
 
-### 4)Le indicamos a git donde se va a almacenar nuestro proyecto(fijate en tu repositorio de github cual es el enlace de tu proyecto(esta en code)).
+### 5)Le indicamos a git donde se va a almacenar nuestro proyecto(fijate en tu repositorio de github cual es el enlace de tu proyecto(esta en code)).
 * git remote add origin gh repo clone andresWeitzel/WebAppAngularBootstrap
 
-### 5)Subimos nuestro proyecto.
+### 6)Subimos nuestro proyecto.
 * git push -u origin master
 
 </br>
@@ -93,7 +95,7 @@
 * git commit -m "Tu commit entre comillas"
 
 ### 4)Sincronizamos y traemos todos los cambios del repositorio remoto a la rama en la que estemos trabajando actualmente.
-##### (Desconozco porqué tengo que ejecutar este comando, supongo que será porque en el local tengo otros proyectos o porque mi master no es un branch, sino el main por defecto de gitHub(Yo realicé esa modificación para mejor visualización)).
+##### Desconozco porqué tengo que ejecutar este comando, supongo que será porque no estoy trabajando con branchs en mi proyecto, el main por defecto de gitHub ahora es mi master(Yo realicé esa modificación para mejor visualización)).
 * git pull https://github.com/andresWeitzel/WebAppAngularBootstrap.git
 
 ### 5)Enviamos todos los cambios al repo en github

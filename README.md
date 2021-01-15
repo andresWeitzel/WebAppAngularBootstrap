@@ -13,7 +13,7 @@
 
 ## Vista de Inicio de la App Web 1/4
 
-![Index app](https://github.com/andresWeitzel/Graphics/blob/main/Proyectos/DenunciasOnlineAngular_app/Captura%20de%20pantalla%20(320).png)
+![Index app](https://github.com/andresWeitzel/Graphics/blob/main/Proyectos/DenunciasOnlineAngular_app/Captura%20de%20pantalla%20(320).png)![Index app](https://github.com/andresWeitzel/Graphics/blob/main/Proyectos/DenunciasOnlineAngular_app/Captura%20de%20pantalla%20(320).png)
 
 ## Vista de Inicio de la App Web 2/4
 

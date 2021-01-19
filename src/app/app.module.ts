@@ -12,6 +12,7 @@ import { FormularioDenunciasComponent } from './formulario-denuncias/formulario-
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NovedadesComponent } from './novedades/novedades.component';
+import { FormularioDenunciasRespuestaComponent } from './formulario-denuncias-respuesta/formulario-denuncias-respuesta.component';
 
 
 
@@ -27,6 +28,7 @@ import { NovedadesComponent } from './novedades/novedades.component';
     PageNotFoundComponent,
     InicioComponent,
     NovedadesComponent,
+    FormularioDenunciasRespuestaComponent,
   ],
   imports: [
     BrowserModule,
